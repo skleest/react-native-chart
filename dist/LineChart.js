@@ -44,8 +44,8 @@ _drawLine=function(){
 var containerHeight=_this.props.height;
 var containerWidth=_this.props.width;
 var data=_this.props.data||[];
-var minBound=_this.props.minVerticalBound;
-var maxBound=_this.props.maxVerticalBound;
+var minBound=_this.props.minVerticalBound-0.1;
+var maxBound=_this.props.maxVerticalBound+0.1;
 
 // For all same values, create a range anyway
 if(minBound===maxBound){
